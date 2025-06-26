@@ -5,7 +5,7 @@
     :initial="{ opacity: 0 }"
     :visible-once="{ opacity: 1, transition: { delay: 200 } }"
   >
-    <div class="container mx-auto px-4 text-center">
+    <div class="">
       <p class="flex items-center justify-center gap-1">
         <span>Made with</span>
         <Icon 
@@ -22,10 +22,6 @@
         </a>
       </p>
       
-      <!-- حقوق النشر (اختياري) -->
-      <p class="mt-2 text-sm text-gray-400">
-        &copy; {{ new Date().getFullYear() }} All rights reserved
-      </p>
     </div>
   </footer>
 </template>
